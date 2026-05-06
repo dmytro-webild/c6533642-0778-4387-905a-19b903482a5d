@@ -58,7 +58,7 @@ export default function LandingPage() {
           name: "أحمد المنصور",
           testimonial: "خدمة سريعة واحترافية جداً، أشكر فريق مرسال على دقة المواعيد.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",
         },
         {
           name: "سارة سعيد",
@@ -95,7 +95,7 @@ export default function LandingPage() {
           href: "/transfers",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg?_wi=1"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/portrait-grey-haired-businessman-standing_74855-10324.jpg",
@@ -247,7 +247,7 @@ export default function LandingPage() {
         placeholder: "اكتب رسالتك هنا...",
         rows: 4,
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg?_wi=2"
     />
   </div>
 
