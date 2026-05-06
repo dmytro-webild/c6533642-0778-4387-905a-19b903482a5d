@@ -45,7 +45,7 @@ export default function LandingPage() {
       testimonials={[
         {
           name: "أحمد المنصور",          handle: "@ahmed",          testimonial: "خدمة سريعة واحترافية جداً، أشكر فريق مرسال على دقة المواعيد.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1"},
         {
           name: "سارة سعيد",          handle: "@sara",          testimonial: "أفضل أسعار صرف وأمان عالي في التحويلات الدولية.",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-outdoor-businessman_23-2148763884.jpg"},
@@ -60,7 +60,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/senior-man-looking-camera-smiling-sitting-workplace-desk_482257-5730.jpg"},
       ]}
       buttons={[{ text: "أسعار العملات", href: "/rates" }, { text: "إرسال حوالة", href: "/transfers" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg?_wi=1"
     />
   </div>
 
@@ -110,7 +110,7 @@ export default function LandingPage() {
         { name: "phone", type: "tel", placeholder: "رقم الهاتف", required: true },
       ]}
       textarea={{ name: "message", placeholder: "اكتب رسالتك هنا...", rows: 4 }}
-      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg?_wi=2"
     />
   </div>
 
