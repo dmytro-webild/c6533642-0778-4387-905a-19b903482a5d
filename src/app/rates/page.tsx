@@ -6,9 +6,9 @@ import AboutMetric from '@/components/sections/about/AboutMetric';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import { CreditCard, DollarSign, ShieldCheck, TrendingUp } from "lucide-react";
+import { DollarSign, CreditCard, TrendingUp, ShieldCheck } from "lucide-react";
 
-export default function LandingPage() {
+export default function RatesPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="expand-hover"
@@ -26,24 +26,13 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "الرئيسية",
-          id: "/",
-        },
-        {
-          name: "أسعار العملات",
-          id: "/rates",
-        },
-        {
-          name: "الحوالات",
-          id: "/transfers",
-        },
-        {
-          name: "تواصل معنا",
-          id: "/contact",
-        },
+        { name: "الرئيسية", id: "/" },
+        { name: "أسعار العملات", id: "/rates" },
+        { name: "الحوالات", id: "/transfers" },
+        { name: "تواصل معنا", id: "/contact" },
       ]}
       brandName="Mersal Money"
+      button={{ text: "تواصل معنا", href: "/contact" }}
     />
   </div>
 
@@ -52,21 +41,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="أسعار صرف العملات اليومية"
       metrics={[
-        {
-          icon: DollarSign,
-          label: "الدولار الأمريكي",
-          value: "1250 YER",
-        },
-        {
-          icon: DollarSign,
-          label: "اليورو",
-          value: "1360 YER",
-        },
-        {
-          icon: CreditCard,
-          label: "الريال السعودي",
-          value: "333 YER",
-        },
+        { icon: DollarSign, label: "الدولار الأمريكي", value: "1250 YER" },
+        { icon: DollarSign, label: "اليورو", value: "1360 YER" },
+        { icon: CreditCard, label: "الريال السعودي", value: "333 YER" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -80,18 +57,8 @@ export default function LandingPage() {
       title="التزامنا بالشفافية"
       description="نعرض لكم تحديثات العملات لحظة بلحظة."
       metrics={[
-        {
-          id: "r1",
-          icon: TrendingUp,
-          title: "تحديثات لحظية",
-          value: "فوري",
-        },
-        {
-          id: "r2",
-          icon: ShieldCheck,
-          title: "دقة بيانات",
-          value: "عالية",
-        },
+        { id: "r1", icon: TrendingUp, title: "تحديثات لحظية", value: "فوري" },
+        { id: "r2", icon: ShieldCheck, title: "دقة بيانات", value: "عالية" },
       ]}
     />
   </div>
@@ -100,14 +67,8 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DN5VLJQQvuqHSdXtvgajMKVnMt/uploaded-1778109736688-x4rwfa02.jpg"
       logoText="Mersal Money"
-      leftLink={{
-        text: "سياسة الخصوصية",
-        href: "#",
-      }}
-      rightLink={{
-        text: "حقوق النشر © 2024",
-        href: "#",
-      }}
+      leftLink={{ text: "سياسة الخصوصية", href: "#" }}
+      rightLink={{ text: "حقوق النشر © 2024", href: "#" }}
     />
   </div>
       </ReactLenis>
