@@ -63,13 +63,13 @@ export default function LandingPage() {
           id: "p2",
           name: "تحويل بنكي دولي",
           price: "سريع وآمن",
-          imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg?_wi=3",
         },
         {
           id: "p3",
           name: "محفظة رقمية",
           price: "فورية",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",
         },
       ]}
       title="خدمات التحويل"
