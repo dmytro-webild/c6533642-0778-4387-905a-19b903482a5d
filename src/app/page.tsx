@@ -87,6 +87,7 @@ export default function LandingPage() {
       positiveCard={{ items: ["تحويلات فورية", "أسعار منافسة", "أمان وحماية", "تغطية دولية واسعة"] }}
       title="لماذا مرسال موني؟"
       description="نقدم خدمات مالية مبتكرة تجمع بين الأمان التقني والالتزام بالأصول المالية."
+      buttons={[{ text: "ابدأ التحويل الآن", href: "/transfers" }]}
     />
   </div>
 
