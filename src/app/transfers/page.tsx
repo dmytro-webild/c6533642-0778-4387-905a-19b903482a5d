@@ -43,8 +43,8 @@ export default function TransfersPage() {
       useInvertedBackground={true}
       products={[
         { id: "p1", name: "تحويل عبر الوكلاء", price: "عمولة منخفضة", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DN5VLJQQvuqHSdXtvgajMKVnMt/uploaded-1778109736688-x4rwfa02.jpg" },
-        { id: "p2", name: "تحويل بنكي دولي", price: "سريع وآمن", imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg" },
-        { id: "p3", name: "محفظة رقمية", price: "فورية", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg" },
+        { id: "p2", name: "تحويل بنكي دولي", price: "سريع وآمن", imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-skyscrapers_1359-988.jpg?_wi=3" },
+        { id: "p3", name: "محفظة رقمية", price: "فورية", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2" },
       ]}
       title="خدمات التحويل"
       description="اختر الطريقة الأنسب لإرسال أموالك بكل سهولة ويسر."
