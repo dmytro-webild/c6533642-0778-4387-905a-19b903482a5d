@@ -8,7 +8,7 @@ import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloating
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import { Headphones } from "lucide-react";
 
-export default function LandingPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="expand-hover"
@@ -26,24 +26,13 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "الرئيسية",
-          id: "/",
-        },
-        {
-          name: "أسعار العملات",
-          id: "/rates",
-        },
-        {
-          name: "الحوالات",
-          id: "/transfers",
-        },
-        {
-          name: "تواصل معنا",
-          id: "/contact",
-        },
+        { name: "الرئيسية", id: "/" },
+        { name: "أسعار العملات", id: "/rates" },
+        { name: "الحوالات", id: "/transfers" },
+        { name: "تواصل معنا", id: "/contact" },
       ]}
       brandName="Mersal Money"
+      button={{ text: "اتصل بنا", href: "tel:+123456789" }}
     />
   </div>
 
@@ -52,21 +41,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "f1",
-          title: "كيف أرسل حوالة؟",
-          content: "يمكنك زيارة أي فرع أو استخدام تطبيقنا للبدء فوراً.",
-        },
-        {
-          id: "f2",
-          title: "ما هي رسوم التحويل؟",
-          content: "الرسوم تبدأ من 0.5% وتختلف حسب الوجهة والعملة.",
-        },
-        {
-          id: "f3",
-          title: "هل التحويل آمن؟",
-          content: "نعم، نستخدم أحدث أنظمة التشفير الدولية لضمان أمان معاملاتكم.",
-        },
+        { id: "f1", title: "كيف أرسل حوالة؟", content: "يمكنك زيارة أي فرع أو استخدام تطبيقنا للبدء فوراً." },
+        { id: "f2", title: "ما هي رسوم التحويل؟", content: "الرسوم تبدأ من 0.5% وتختلف حسب الوجهة والعملة." },
+        { id: "f3", title: "هل التحويل آمن؟", content: "نعم، نستخدم أحدث أنظمة التشفير الدولية لضمان أمان معاملاتكم." },
       ]}
       title="أسئلة شائعة"
       description="كل ما تحتاجه من معلومات حول خدماتنا المالية."
@@ -91,14 +68,8 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DN5VLJQQvuqHSdXtvgajMKVnMt/uploaded-1778109736688-x4rwfa02.jpg"
       logoText="Mersal Money"
-      leftLink={{
-        text: "سياسة الخصوصية",
-        href: "#",
-      }}
-      rightLink={{
-        text: "حقوق النشر © 2024",
-        href: "#",
-      }}
+      leftLink={{ text: "سياسة الخصوصية", href: "#" }}
+      rightLink={{ text: "حقوق النشر © 2024", href: "#" }}
     />
   </div>
       </ReactLenis>
